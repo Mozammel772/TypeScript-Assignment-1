@@ -13,7 +13,7 @@ In TypeScript, both `interface` and `type` can be used to describe the shape of 
 - `interface` supports declaration merging, but `type` does not.
 - `type` can represent unions, intersections, tuples, and primitives, while `interface` is mainly used for object shapes.
 
----
+--- b
 
 ### 2. Use of the `keyof` Keyword in TypeScript
 

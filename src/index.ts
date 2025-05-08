@@ -114,10 +114,6 @@ function getDayType(day: Day): string {
 const getDayTypeResult = getDayType(Day.Thursday);
 console.log(getDayTypeResult);
 
-function delay(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
 async function squareAsync(n: number): Promise<number> {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
