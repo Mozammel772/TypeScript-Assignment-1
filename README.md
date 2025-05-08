@@ -7,8 +7,8 @@ A brief description of your project.
 - Feature 1
 - Feature 2
 
-## Installation
+## Project Run Command
 
 ```bash
+ts-node src/index.ts
 
-```
